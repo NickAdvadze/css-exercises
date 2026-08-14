@@ -1,20 +1,30 @@
 body {
   background: gray;
   font-family: sans-serif;
+  box-sizing: border-box;
+  
 }
 
 .card {
-  width: 400px;
+  width: 60vw;
   background: white;
-  margin: 16px auto;
+  margin: 30vh auto;
+  padding: 2% 1% 1% 1%;
 }
 
 .title,
 .content,
 .button-container {
   background: dodgerblue;
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  padding: 16px;
+  margin-top: 1%;
 }
 
 button {
   background: white;
+  display: block;
+  margin-left: 26.5vw;
 }
